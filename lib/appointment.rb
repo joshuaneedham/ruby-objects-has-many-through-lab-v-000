@@ -7,11 +7,5 @@ class Appointment
     @patient = patient
   end
 
-  def patient
-    @patient
-  end
 
-  def doctor
-    @doctor
-  end
 end
