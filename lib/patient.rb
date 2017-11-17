@@ -7,6 +7,7 @@ class Patient
   end
 
   def appointments
+    @appointments
   end
 
   def add_appointment(appointment)
@@ -15,5 +16,8 @@ class Patient
   end
 
   def doctors
+    self.appointments.collect do |appointment|
+      appointment.doctor
+    end
   end
 end
