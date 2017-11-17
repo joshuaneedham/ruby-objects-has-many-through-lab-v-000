@@ -11,7 +11,7 @@ class Appointment
     @patient
   end
 
-  def doctor
+  def doctor(doctor)
     self.doctor.name
   end
 end
