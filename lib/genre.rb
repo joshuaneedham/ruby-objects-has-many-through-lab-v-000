@@ -12,11 +12,14 @@ class Genre
   end
 
   def songs
-    @songs
+    @songs.each do |song|
+      song
   end
 
   def artists
     @artists
   end
+
+  
 
 end
