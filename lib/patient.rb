@@ -14,5 +14,6 @@ class Patient
   end
 
   def doctors
+    @doctors
   end
 end
