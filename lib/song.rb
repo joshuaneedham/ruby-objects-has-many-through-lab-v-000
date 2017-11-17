@@ -11,7 +11,7 @@ class Song
   end
 
   def genre
-    self.genre.name
+    genre.name
   end
 
 
