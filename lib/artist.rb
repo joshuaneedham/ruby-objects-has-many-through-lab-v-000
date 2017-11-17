@@ -13,7 +13,7 @@ class Artist
     song.artist = self
   end
 
-  def genres
+  def self.genres
     @genre
   end
 end
