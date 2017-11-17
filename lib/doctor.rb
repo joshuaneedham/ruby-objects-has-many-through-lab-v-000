@@ -10,7 +10,7 @@ class Doctor
 
   def add_appointment(appointment)
     @appointments << appointment
-    binding.pry
+    # binding.pry
     @patients << appointment.patient
   end
 
