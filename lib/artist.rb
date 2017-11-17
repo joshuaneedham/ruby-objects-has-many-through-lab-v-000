@@ -13,4 +13,9 @@ class Artist
     song.artist = self
   end
 
+  def genres
+    @genre
+    genre.artist = self
+  end
+
 end
