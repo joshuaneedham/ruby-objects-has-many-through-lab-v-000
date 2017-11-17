@@ -7,19 +7,11 @@ class Song
   end
 
   def artist_name
-    if self.artist
-      self.artist.name
-    else
-      nil
-    end
+    self.artist.name
   end
 
   def genre
-    if self.genre
-      self.genre.name
-    else
-      nil
-    end
   end
+
 
 end
