@@ -11,11 +11,6 @@ class Doctor
   end
 
   def appointments
-    if self.doctor
-      self.doctor.name
-    else
-      nil
-    end
   end
 
   def patients
