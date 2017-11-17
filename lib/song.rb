@@ -14,12 +14,4 @@ class Song
     end
   end
 
-  def genre
-    if self.genre
-      self.genre.name
-    else
-      nil
-    end
-  end
-
 end
