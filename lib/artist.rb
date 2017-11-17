@@ -17,7 +17,7 @@ class Artist
     song.artist = self
   end
 
-  def genres
+  def genres(genre)
     self.genre
   end
 end
