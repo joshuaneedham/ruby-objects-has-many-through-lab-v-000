@@ -5,7 +5,7 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    @genres = genres
+    @genre = genres
   end
 
   def add_song(song)
@@ -15,7 +15,7 @@ class Artist
 
   def self.genres
     @songs.each do |song|
-      @genres.each do |genre|
+      @genre.each do |genre|
         genre
       end
     end
