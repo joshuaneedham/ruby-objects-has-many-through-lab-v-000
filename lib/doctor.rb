@@ -11,5 +11,8 @@ class Doctor
     @appointments << appointment
   end
 
+  def patients(patient)
+    @patients << patient
+  end
 
 end
