@@ -12,6 +12,7 @@ class Doctor
   end
 
   def patients
+    @patients << patient
   end
 
 end
