@@ -3,7 +3,6 @@ class Appointment
 
   def initialize(date, doctor)
     @date = date
-    @doctor = doctor
     @patient = patient
   end
 
@@ -13,6 +12,6 @@ class Appointment
 
   def doctor
     binding.pry
-    @doctor
+    @doctor = doctor
   end
 end
