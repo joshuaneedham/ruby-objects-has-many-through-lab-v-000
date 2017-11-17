@@ -11,8 +11,4 @@ class Song
     self.artist.name
   end
 
-  def genre
-  end
-
-
 end
