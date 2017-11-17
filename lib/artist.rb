@@ -13,7 +13,11 @@ class Artist
     song.artist = self
   end
 
-  def self.genre
-    @genre
+  def genres
+    if self.genre
+      self.genre.name
+    else
+      nil
+    end
   end
 end
