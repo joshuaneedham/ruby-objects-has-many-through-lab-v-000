@@ -5,5 +5,10 @@ class Artist
     @name = name
     @songs = []
   end
+
+  def add_song
+    @songs << songs
     
+  end
+
 end
