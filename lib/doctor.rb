@@ -12,7 +12,9 @@ class Doctor
   end
 
   def patients
-    @patients << patient
+    @patients.collect do |patient|
+      patient.doctor
+    end
   end
 
 end
