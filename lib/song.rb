@@ -15,8 +15,8 @@ class Song
   end
 
   def genre
-    if self.artist
-      self.artist.name
+    if self.genre
+      self.genre.name
     else
       nil
     end
