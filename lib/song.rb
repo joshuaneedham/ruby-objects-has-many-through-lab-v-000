@@ -11,7 +11,6 @@ class Song
   end
 
   def genre
-    genre.name
   end
 
 
