@@ -7,8 +7,4 @@ class Song
     @artist = artist
   end
 
-  def artist
-    self.artist
-  end
-
 end
