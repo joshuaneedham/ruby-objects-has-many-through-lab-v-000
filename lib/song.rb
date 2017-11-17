@@ -14,4 +14,12 @@ class Song
     end
   end
 
+  def genre
+    if self.artist
+      self.artist.name
+    else
+      nil
+    end
+  end
+
 end
