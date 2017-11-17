@@ -1,9 +1,13 @@
 class Song
   attr_accessor :name
 
-  @@all = []
+  @@all = [] # Class variable
 
-  def self.all
+  def self.all # Class reader
     @@all
+  end
+
+  def song
+    @@all << self
   end
 end
