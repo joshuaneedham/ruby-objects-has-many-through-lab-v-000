@@ -9,5 +9,5 @@ class Genre
   def genre
     @name
   end
-    
+
 end
