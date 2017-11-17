@@ -17,9 +17,10 @@ class Genre
   end
 
   def artists
-    @artists
+    @artists.each do |artist|
+      artist
   end
 
-  
+
 
 end
