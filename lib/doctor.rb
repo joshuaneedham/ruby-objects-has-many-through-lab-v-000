@@ -7,11 +7,14 @@ class Doctor
   end
 
   def add_appointment
+    @appointments << appointment
   end
 
   def appointments
+    @appointments
   end
 
   def patients
+    @patients
   end
 end
