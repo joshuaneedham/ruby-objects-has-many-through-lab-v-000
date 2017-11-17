@@ -3,10 +3,10 @@ class Song
 
   @@all = [] # Class variable
 
-  def self.all # Class reader
-    @@all
+  def initialize(name)
+    @name = name
   end
-
+  
   def song
     @@all << self
   end
