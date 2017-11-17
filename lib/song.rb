@@ -7,11 +7,7 @@ class Song
   end
 
   def artist
-    if self.artist
-      self.artist.name
-    else
-      nil
-    end
+    self.artist
   end
 
 end
