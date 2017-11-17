@@ -13,7 +13,7 @@ class Artist
     song.artist = self
   end
 
-  def self.genres
+  def genres
     @songs.each do |song|
       song.each do |genre|
         genre
