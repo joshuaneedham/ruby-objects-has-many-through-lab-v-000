@@ -12,10 +12,6 @@ class Appointment
   end
 
   def doctor
-    if self.doctor
-      self.doctor.name
-    else
-      nil
-    end
+    self.doctor.name
   end
 end
