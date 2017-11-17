@@ -11,7 +11,6 @@ class Appointment
   end
 
   def doctor
-    binding.pry
     @doctor = doctor
   end
 end
